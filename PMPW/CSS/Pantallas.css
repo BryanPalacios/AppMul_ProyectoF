@@ -1,0 +1,25 @@
+@media (max-width:800px) {
+  /*parrafos y imagenes en la consulta php alternallos con dferenctes nombres del main y poder ponerlos salteados*/
+
+  #main article .imgi {
+    display: none;
+  }
+
+  #main article .imgd {
+    display: none;
+  }
+
+  #main article .pi {
+    width: 92%;
+    border-radius: 5px;
+    border: #566699;
+    text-align: justify;
+  }
+
+  #main article .pd {
+    width: 92%;
+    border-radius: 5px;
+    border: #566699;
+    text-align: justify;
+  }
+}

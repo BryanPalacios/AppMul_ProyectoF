@@ -1,0 +1,154 @@
+#wrapper{
+
+    width: 80%;
+    top: 20px;
+    margin: auto;
+    background-color:rgba(34,83,114,0.6 );
+    clear: both;
+    border-radius: 20px;
+    /*para sitios con header 100%*/
+}
+
+h1,h2{
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/*fondo tranasparente que contiene toda la informacion*/
+#main{
+    background-color:rgba(34,83,114,0.6 );
+    float: left;
+    width: 100%;
+    margin:auto;
+    border-radius: 50px;
+}
+
+/*contenedores blancos donde se pueden incluir imagenes y textos*/
+#main article{
+    background-color: #fff;
+    border-radius:20px;
+    color: #fff;
+    float: left;
+    margin:20px;
+    margin-bottom: 20px;
+}
+
+/*estilos de letras dentro del article*/
+#main article{
+    font-size: 22px;
+    font-family: arial;
+    color: #000;
+}
+
+/*ajuste de textos para el estilo destro del article*/
+#main article >p{
+    color: #8c8c8c;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px;
+}
+
+/*parrafos y imagenes en la consulta php alternallos con dferenctes nombres del main y poder ponerlos salteados*/
+#main article .pi {
+  width: 46%;
+  border-radius: 5px;
+  border: #566699;
+  text-align: justify;
+  float: right; /*posicion donde va estar la imagen y el Texto*/
+}
+
+#main article .imgi {
+  float: left auto;
+  margin: 10px;
+  width: 46%;
+  border-radius: 20px;
+  image-orientation: center;
+}
+
+#main article .pd {
+  width: 46%;
+  border-radius: 5px;
+  border: #566699;
+  text-align: justify;
+
+}
+
+#main article .imgd {
+  float: left auto;
+  margin: 10px;
+  width: 46%;
+  border-radius: 20px;
+  image-orientation: center;
+  float: right; /*posicion donde va estar la imagen y el Texto*/
+}
+
+#main article p{
+  position: relative;
+  overflow-y: auto;
+  padding: 3%;
+  max-height: 17em;
+}
+/*footer Acerca de...*/
+footer{
+    width: 100%;
+    background-color:rgba(100,100,100,1 );
+    float: left;
+    clear: both;/*eliminar estilos*/
+    box-shadow: 0px 2px 2px #000;
+    border-radius:20px;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&amp;1+0,0+100;Blue+to+Transparent */
+}
+
+footer section{
+    width: 50%;
+    float: left;
+    padding:20px; text-align: justify;
+}
+
+footer #acerca-de {
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+}
+
+footer #acerca-de h2{
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/*todos los derechos reservados*/
+#copyright{
+    float: left;
+    margin:10px 10px;
+    width: 90%;
+}
+
+#copyright p{
+    color: #fff;
+    text-align: center;
+}
+
+/*visor o escrol de imagenes*/
+#Scroll{
+    margin: 20px;
+    width: 80% auto;
+    height: 10em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space:nowrap;
+    background: rgb(11, 140, 114,0.6);
+    padding:  0.2%;
+    border-radius: 20px;
+}
+
+#Scroll img{
+    height: 100%;
+    padding: 0.5%;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    vertical-align:top;
+
+}
